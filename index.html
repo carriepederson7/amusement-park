@@ -10,13 +10,35 @@
   <body>
     <div class="container">
       <h1>Amusement Park</h1>
-      <p>Welcome to the amusement park! For your safety, you will only be allowed to go on certain rides based on your height. To determine which rides you can use, please enter your height in inches:</p>
+      <p>Welcome to the amusement park! For your safety, you will only be allowed to go on certain rides based on your height. To determine which rides you can use, please enter your height in inches.</p>
+
+      <p><em>Not sure how to convert your height to inches? <a href="https://www.metric-conversions.org/length/feet-to-inches.htm" target="_blank">This website</a> might help!</em></p>
       <form id="enterHeight">
         <div class="form-group">
-          <label for="height">Enter height in inches</label>
-          <input id="height" class="form-control" type="text">
+          <p><label for="height">Enter height:</label>
+          <input id="height" class="form-inline" type="text"> inches</p>
         </div>
+        <button type="submit" class="btn">Show my rides!</button>
       </form>
+
+    <h3 class="rideType">You can ride:</h3>
+
+    <div class="rideType" id="short">
+      <h2>Kiddie Rides!</h2>
+      <img src= "img/little-ride-1.jpeg">
+      <img src= "img/little-ride-2.jpeg">
     </div>
+
+    <div class="rideType" id="all">
+      <h2>Family Rides!</h2>
+      <img src= "img/ferris-wheel.jpeg">
+      <img src= "img/boat-ride.jpeg">
+    </div>
+
+    <div class="rideType" id="extreme">
+      <h2>Extreme Rides!</h2>
+      <img src= "img/extreme-ride-1.jpeg">
+      <img src= "img/extreme-ride-2.jpeg">
+
   </body>
 </html>
