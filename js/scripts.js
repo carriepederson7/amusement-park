@@ -8,11 +8,11 @@ $(document).ready(function() {
       $("h3").show();
       $("#all").show();
 
-    } else if (height > 54 && height < 90) {
+    } else if (height >= 54 && height < 90) {
       $("#extreme").show();
       $("h3").show();
       $("#all").show();
-      
+
     } else {
       alert("That height is not valid; try again.");
     }
